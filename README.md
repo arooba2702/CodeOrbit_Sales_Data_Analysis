@@ -9,23 +9,23 @@ payment method and order status.
 ## Files
 
 - `Sales_Data_Analysis.ipynb` — the analysis notebook (run it to reproduce every number and chart)
-- `data/Cleaned_Data.csv` — cleaned input data from Task 1 (466 orders)
-- `output/sales_by_product.csv` — sales by product
-- `output/sales_by_city.csv` — sales by city
-- `output/sales_by_month.csv` — sales by month
-- `output/sales_by_payment.csv` — sales by payment method
-- `output/sales_by_status.csv` — sales by order status
-- `ANALYSIS_REPORT.md` — short written report of the findings
+- `Cleaned_Data.csv` — cleaned input data from Task 1 (466 orders)
+- `Sales_by_product.csv` — sales by product
+- `Sales_by_city.csv` — sales by city
+- `Sales_by_month.csv` — sales by month
+- `Sales_by_payment.csv` — sales by payment method
+- `Sales_by_status.csv` — sales by order status
+- `ANALYSIS_REPORT.pdf` — short written report of the findings
+- `Requirements for Sales Analysis.txt` — packages needed to run the notebook
 
 ## How to run
 
 ```bash
-pip install -r requirements.txt
+pip install -r "Requirements for Sales Analysis.txt"
 jupyter notebook Sales_Data_Analysis.ipynb
 ```
 
-Or open the notebook in Google Colab and run all cells. No upload is needed beyond
-the notebook itself, because the CSV is in the `data/` folder next to it.
+Or open the notebook in Google Colab and run all cells.
 
 ## Main results
 
